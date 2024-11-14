@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/bennxumalo-devops/introargo.git
     targetRevision: HEAD
-    path: environments/staging/my-app
+    path: environments/stg/my-app
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
