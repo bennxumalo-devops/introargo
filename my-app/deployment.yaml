@@ -15,4 +15,10 @@ spec:
     metadata: 
       labels: 
         app: nginx 
-    spec:        
+    spec:
+      containers: 
+        - name: nginx
+          image: bennxumalo/nginx:v0.1.0
+          ports: 
+            - containerPort: 80
+                    
